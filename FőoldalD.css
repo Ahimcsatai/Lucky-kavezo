@@ -6,4 +6,10 @@ body {
 
 nav {
     background-color: #D48E24;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    margin: 15px;
 }
