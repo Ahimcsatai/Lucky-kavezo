@@ -1,8 +1,33 @@
-*{
-    background-color: #FBEFDB;
+
+
+body {
+    background-color: #FBEFDB; 
 }
-#k1{
-    width: 1440px;
-    height: 400px;
-    
+
+nav {
+    background-color: #D48E24;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    margin: 15px;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:first-child{
+    font-size: 1.5em;
+}
+nav a:first-child img{
+    width: 40px;
+}
+.banner{
+    background-image: url(./kávéképek/istockphoto-1359781504-170667a.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
 }
