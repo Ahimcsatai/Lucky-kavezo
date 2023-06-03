@@ -22,11 +22,9 @@ nav a:hover{
 nav a:first-child{
     font-size: 1.5em;
 }
-
 nav a:first-child img{
     width: 40px;
 }
-
 .banner{
     background-image: url(../főoldal+blog_kepek/fo_oldal.jpg);
     background-position: center center;
