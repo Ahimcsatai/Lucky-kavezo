@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="kave_suti.css">
 </head>
 <body>
+
     <nav class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -32,17 +33,105 @@
             <div class="col-12">
                 <h1 class="my-4">Lucky - Kávéfajták</h1>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><div class="kave"><img src="./kávéképek/espresso4.jpg" alt="espresso" class="img-fluid"><h2>Espresso</h2></div></div>
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><div class="kave"><img src="./kávéképek/americano2.jpg" alt="americano" class="img-fluid"><h2>Americano</h2></div></div>
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><div class="kave"><img src="./kávéképek/Latte-Macchiato2.jpg" alt="Latte-Macchiato" class="img-fluid"><h2>Latte-Macchiato</h2></div></div>
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><div class="kave"><img src="./kávéképek/Ristretto2.jpg" alt="Ristretto" class="img-fluid"><h2>Ristretto</h2></div></div>
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><div class="kave"><img src="./kávéképek/Latte2.jpg" alt="Latte" class="img-fluid"><h2>Latte</h2></div></div>
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12"><div class="kave"><img src="./főoldal+blog_kepek/kávébab.png" id="napiajanlat" alt="napiajanlat"><img src="./kávéképek/Cappuccino2.jpg" alt="Cappuccino" class="img-fluid"><h2>Cappuccino</h2></div></div>
+        </div container-fluid>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col mb-4">
+                <a href="#">
+              <div class="card">
+                <img src="./kávéképek/espresso4.jpg" class="card-img-top" alt="espresso">
+                <div class="card-body">
+                  <h5 class="card-title">Espresso</h5>
+                  </div>
+              </div>
+              </a>
+            </div>
+            <div class="col mb-4">
+                <a href="#">
+              <div class="card">
+                <img src="./kávéképek/americano2.jpg" class="card-img-top" alt="americano">
+                <div class="card-body">
+                  <h5 class="card-title">Americano</h5>
+                  </div>
+              </div>
+              </a>
+            </div>
+            <div class="col mb-4">
+                <a href="#">
+                <div class="card">
+                  <img src="./kávéképek/Latte-Macchiato2.jpg" class="card-img-top" alt="Latte-Macchiato">
+                  <div class="card-body">
+                    <h5 class="card-title">Latte-Macchiato</h5>
+                    </div>
+                </div>
+                </a>
+              </div>
+              <div class="col mb-4">
+                <a href="#">
+                <div class="card">
+                  <img src="./kávéképek/Ristretto2.jpg" class="card-img-top" alt="Ristretto">
+                  <div class="card-body">
+                    <h5 class="card-title">Ristretto</h5>
+                    </div>
+                </div>
+                </a>
+              </div>
+              <div class="col mb-4">
+                <a href="#">
+                <div class="card">
+                  <img src="./kávéképek/Latte2.jpg" class="card-img-top" alt="Latte">
+                  <div class="card-body">
+                    <h5 class="card-title">Latte</h5>
+                    </div>
+                </div>
+                </a>
+              </div>
+              <div class="col mb-4">
+                <a href=""data-toggle="modal" data-target="cappuccinoModal">
+                <div class="card">
+                  <img src="./főoldal+blog_kepek/kávébab.png" id="napiajanlat" alt="napiajanlat">
+                  <img src="./kávéképek/Cappuccino2.jpg" class="card-img-top" alt="Cappuccino">
+                  <div class="card-body">
+                    <h5 class="card-title">Cappuccino</h5>
+                    </div>
+                </div>
+                </a>
+              </div>
+            </div>
 
+
+
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="cappuccinoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cappuccino</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
         </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="./kávéképek/Cappuccino2.jpg" class="img-fluid" alt="Cappuccino">
+                </div>
+                <div class="col-sm-8">
+                    <h2>Cappuccino</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, quibusdam incidunt! Alias quas tempora a perspiciatis mollitia voluptatem, deleniti totam quidem atque officia recusandae asperiores, dignissimos fugiat repellendus temporibus quod?</p>
+                    <p>Ullam aperiam nostrum voluptatem non repudiandae. Architecto vitae totam debitis officiis, ex nesciunt, voluptatum porro asperiores consequuntur quisquam voluptate perferendis est natus. Facilis similique voluptatibus culpa harum eos voluptatem explicabo!</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
     </div>
+  </div>
+    
     <div class="footer">
     <footer class="container">
         <div class="row">

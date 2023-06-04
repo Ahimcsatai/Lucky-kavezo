@@ -28,37 +28,23 @@ h1{
     color: #D48E24;
     text-align: center;
 }
-.kave {
+.card{
     color: #D48E24;
     background-color: #fff;
     border: 1px solid #D48E24;
-    border-radius: 4px;
-    margin-bottom: 1rem;
     position: relative;
     overflow: hidden;
 }
 
-.kave img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.kave h2 {
-    font-size: 1rem;
+h5{
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     font-variant: small-caps;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(212, 142, 36, 0.8);
-    padding: 0.5rem;
-    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.kave:hover{
+a{
+    text-decoration: none;
+}
+.card:hover{
     box-shadow: 0px 0px 5px #D48E24;
 }
 #napiajanlat{
