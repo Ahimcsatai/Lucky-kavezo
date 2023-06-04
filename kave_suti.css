@@ -28,24 +28,53 @@ h1{
     color: #D48E24;
     text-align: center;
 }
-.kave{
-    color:#D48E24;
+.kave {
+    color: #D48E24;
     background-color: #fff;
     border: 1px solid #D48E24;
     border-radius: 4px;
     margin-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
 }
-.kave:hover{
-    box-shadow: 0px 0px 5px #D48E24;
+
+.kave img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
-.kave h2{
+
+.kave h2 {
     font-size: 1rem;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-variant: small-caps;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(212, 142, 36, 0.8);
+    padding: 0.5rem;
+    color: white;
 }
-.kave{
-    width: 360pt;
-    height: 169pt;
+.kave:hover{
+    box-shadow: 0px 0px 5px #D48E24;
+}
+#napiajanlat{
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.ikon{
+    width: 30px;
+    height: 30px;
+}
+.footer{
+    background-color: #D48E24;
+    color: #fff;
+}
+footer li{
+    list-style-type: none;
 }
