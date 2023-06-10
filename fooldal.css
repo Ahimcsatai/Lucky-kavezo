@@ -33,7 +33,7 @@ nav a:first-child img{
 
 /*BOTI itt kezdődik a lábléc css-része */
 .footer{
-    background-color: #D48E24;
+    background-image: url(fo_oldal.jpg);
     color: #fff;
 }
 footer li{
