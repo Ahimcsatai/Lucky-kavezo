@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url(./főoldal+blog_kepek/fo_oldal.jpg);
+    background-color: #FBEFDB;
 }
 
 nav {
@@ -26,9 +26,30 @@ nav a:first-child img{
     width: 40px;
 }
 .banner{
+    margin-top: 1200px;
+    margin-bottom: 1200px;
     background-image: url(../főoldal+blog_kepek/fo_oldal.jpg);
     background-position: center center;
     background-size: cover;
+}
+
+#fo_kep {
+    position: absolute;
+    width: 1440px;
+    height: 1587px;
+    left: 0px;
+    top: 61px;
+    
+
+}
+
+#fo_info {
+    position: absolute;
+    width: 780px;
+    height: 507px;
+    left: 315px;
+    top: 1090px;
+    background: linear-gradient(180deg, #D48E24 0%, rgba(212, 142, 36, 0) 100%, rgba(212, 142, 36, 0.854167) 100%);
 }
 
 /*BOTI itt kezdődik a lábléc css-része */
