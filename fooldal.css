@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: #FBEFDB; 
+    background-image: url(./főoldal+blog_kepek/fo_oldal.jpg);
 }
 
 nav {
@@ -33,7 +33,7 @@ nav a:first-child img{
 
 /*BOTI itt kezdődik a lábléc css-része */
 .footer{
-    background-image: url(fo_oldal.jpg);
+    background-color: #D48E24;
     color: #fff;
 }
 footer li{
