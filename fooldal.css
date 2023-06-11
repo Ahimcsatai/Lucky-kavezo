@@ -10,6 +10,7 @@ nav {
 nav a{
     color: white;
     margin: 15px;
+    text-decoration: none;
 }
 
 nav a:hover{
