@@ -1,0 +1,31 @@
+body{
+    background-image: url(./extra_tartalom/suti4.jpg);
+    position: relative;
+    width: auto;
+    height: 350px;
+    height: 900px; 
+    background-position: center; 
+    background-size: cover;
+
+}
+.tud2{
+    color: white;
+    text-align: center;
+    text-align: justify;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#napiajanlat{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+h4{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
