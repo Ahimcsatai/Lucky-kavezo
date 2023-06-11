@@ -26,9 +26,54 @@ nav a:first-child img{
     width: 40px;
 }
 .banner{
-    background-image: url(../főoldal+blog_kepek/fo_oldal.jpg);
-    background-position: center center;
-    background-size: cover;
+    background-color: #FBEFDB;
+}
+
+#kavehaz{
+    position: absolute;
+    width: 454.97px;
+    height: 300px;
+    left: 150px;
+    top: 606px;
+}
+
+#szoveg_blog_felso{
+    position: absolute;
+    width: 572px;
+    height: 277px;
+    left: 695px;
+    top: 679px;
+
+    font-family: 'Fondamento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#szoveg_blog_also{
+    position: absolute;
+    width: 1190px;
+    height: 496px;
+    left: 128px;
+    top: 1050px;
+
+    font-family: 'Fondamento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
 }
 /*BOTI itt kezdődik a lábléc css-része */
 .footer{
