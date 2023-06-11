@@ -27,7 +27,7 @@ nav a:first-child img{
     position: relative;
     width: auto;
     height: 350px;
-    background: url(./főoldal+blog_kepek/fo_oldal.jpg);
+    background: url(./fooldal+blog_kepek/fo_oldal.jpg);
     height: 900px; 
     background-position: center; 
     background-size: cover;
@@ -60,3 +60,6 @@ footer li{
     list-style-type: none;
 }
 /*BOTI itt végződik a lábléc css-része */
+a{
+    box-shadow: 0px 0px 5px #D48E24;
+}
